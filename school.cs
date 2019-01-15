@@ -1,5 +1,3 @@
-using System;
-
 namespace School.Entities
 {
 	class school
@@ -17,8 +15,12 @@ namespace School.Entities
 
 		public string city { get; set; }
 
-        private int Myvar;
+        public SchoolTypes schoolTypes { get; set; }
 
+        public override string ToString()
+        {
+            return $"Nombre: {name}, Tipo: {schoolTypes}\n País: {country}, Ciudad: {city}";
+        }
         public school(string name, int year) => (Name, foundationYear) = (name, year);
     }
 }
