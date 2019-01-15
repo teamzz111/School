@@ -1,12 +1,16 @@
 ﻿using System;
+using School.Entities;
 
-namespace School
+namespace Etp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var escuela = new school("Platzi Academy", 1998);
+            escuela.city = "Bogotá D.C";
+            escuela.country = "Colombia";
+            Console.WriteLine(escuela.Name);
         }
     }
 }

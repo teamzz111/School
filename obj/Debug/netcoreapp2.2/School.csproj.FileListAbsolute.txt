@@ -1,0 +1,11 @@
+C:\Users\AndresLargo\Documents\GitHub\School\bin\Debug\netcoreapp2.2\School.deps.json
+C:\Users\AndresLargo\Documents\GitHub\School\bin\Debug\netcoreapp2.2\School.runtimeconfig.json
+C:\Users\AndresLargo\Documents\GitHub\School\bin\Debug\netcoreapp2.2\School.runtimeconfig.dev.json
+C:\Users\AndresLargo\Documents\GitHub\School\bin\Debug\netcoreapp2.2\School.dll
+C:\Users\AndresLargo\Documents\GitHub\School\bin\Debug\netcoreapp2.2\School.pdb
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.csprojAssemblyReference.cache
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.csproj.CoreCompileInputs.cache
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.AssemblyInfoInputs.cache
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.AssemblyInfo.cs
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.dll
+C:\Users\AndresLargo\Documents\GitHub\School\obj\Debug\netcoreapp2.2\School.pdb
