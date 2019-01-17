@@ -1,4 +1,5 @@
 ﻿using System;
+using School.Courses;
 using School.Entities;
 
 namespace Etp1
@@ -12,6 +13,26 @@ namespace Etp1
             escuela.country = "Colombia";
             escuela.schoolTypes = SchoolTypes.Primaria;
             Console.WriteLine(escuela);
+
+            var course = new Curso() {
+                name = "101"
+            };
+
+            var course2 = new Curso() {
+                name = "202"
+            };
+
+            var course3 = new Curso() {
+                name = "301"
+            };
+
+            System.Console.WriteLine("=================");
+
+            System.Console.WriteLine(course.name +  " " + course.uniqueId);
+
+            System.Console.WriteLine(course2.name +  " " + course2.uniqueId);
+
+            System.Console.WriteLine(course3.name +  " " + course3.uniqueId);
         }
     }
 }

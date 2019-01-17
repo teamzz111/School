@@ -17,10 +17,15 @@ namespace School.Entities
 
         public SchoolTypes schoolTypes { get; set; }
 
+
+     
+        public school(string name, int year) => (Name, foundationYear) = (name, year);
+     
         public override string ToString()
         {
-            return $"Nombre: {name}, Tipo: {schoolTypes}\n País: {country}, Ciudad: {city}";
+            return $"Nombre: {name}, Tipo: {schoolTypes}\n Paï¿½s: {country}, Ciudad: {city}";
         }
-        public school(string name, int year) => (Name, foundationYear) = (name, year);
+
     }
+
 }
