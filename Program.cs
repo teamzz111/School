@@ -14,25 +14,35 @@ namespace Etp1
             escuela.schoolTypes = SchoolTypes.Primaria;
             Console.WriteLine(escuela);
 
-            var course = new Curso() {
+            Curso[] courses = NewMethod();
+
+            courses[0] = new Curso()
+            {
                 name = "101"
             };
 
-            var course2 = new Curso() {
+            courses[1] = new Curso()
+            {
                 name = "202"
             };
 
-            var course3 = new Curso() {
+            courses[2] = new Curso()
+            {
                 name = "301"
             };
 
             System.Console.WriteLine("=================");
 
-            System.Console.WriteLine(course.name +  " " + course.uniqueId);
+            for (int i = 0; i < courses.Length; i++)
+            {
+                System.Console.WriteLine(courses[i].name + " " + courses[i].uniqueId);
+            }
 
-            System.Console.WriteLine(course2.name +  " " + course2.uniqueId);
+        }
 
-            System.Console.WriteLine(course3.name +  " " + course3.uniqueId);
+        private static Curso[] NewMethod()
+        {
+            return new Curso[3];
         }
     }
 }
